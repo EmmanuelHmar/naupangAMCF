@@ -25,6 +25,7 @@ zirtirtuQuery = '''CREATE TABLE ZIRTIRTU
 
 cursor.execute(zirtirtuQuery)
 
+# Executeasmany
 insertZirtirtu = "INSERT INTO ZIRTIRTU (NAME,DEPARTMENT) VALUES (?,?)"
 cursor.execute(insertZirtirtu,('Lalrawngbawla','Junior Dept'))
 cursor.execute(insertZirtirtu,('Pi Machhuani','Beginner Dept'))
